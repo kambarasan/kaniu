@@ -18,7 +18,7 @@ import {ADD_TO_BASKET} from "../../../redux/Reducer/ActionTypes";
                 {el.title}
             </th>
             <td className='px-6 bg-blue-300 py-4'>
-                <img src={el.category.image} width={45} alt=""/>
+                <img src={el.image} width={45} alt=""/>
             </td>
             <td className="px-6 bg-blue-300 flex items-center  py-10">
                 <span onClick={()=>dispatch(increaseQuantity(el.id))}

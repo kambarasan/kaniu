@@ -32,13 +32,9 @@ const ProducCard = ({producs}) => {
         <div className=" kon max-w-sm bg-white basis-1/5 mx-2 my-5 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className='imh'>
                 <Link to={`/${producs.id}`} >
-                    <img  className="rounded-t-lg" src={producs.images} alt=""/>
+                    <img  className="rounded-t-lg" src={producs.image} alt=""/>
                 </Link>
-                {/*onClick={() => setModal(true)}*/}
-                {/*<div className={`${modal ? 'modal' : 'hidden'}  konan`}>*/}
-                {/*    <img className="rounded-t-lg" src={producs.image} alt=""/>*/}
-                {/*    <button onClick={() => setModal(false)} className='wed'><CiSquareRemove className='al'/></button>*/}
-                {/*</div>*/}
+
                 <AiTwotoneHeart className={`absolute ${isLiked ? 'scale-1' : 'scale-0'} transition-[.1s] top-[50%] left-[45%] text-red-600 text-4xl rotate-[-12deg]`}/>
             </div>
             <div className="p-5 text-center">
