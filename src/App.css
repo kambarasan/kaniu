@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+   .active{
+    color: white;
+}
+
+   .imh img{
+       height: 360px;
+   }
+
+   .kon{
+       height: 630px;
+   }
+   /*.kon{*/
+   /*    position: relative;*/
+   /*}*/
+   /*.konan{*/
+   /*    position: fixed;*/
+   /*    z-index: 1;*/
+   /*    top: 80px;*/
+   /*    left: 530px;*/
+   /*    width: 400px;*/
+
+   /*}*/
+   /*.wed{*/
+   /*    top: 10px;*/
+   /*    left: 360px;*/
+   /*    position: absolute;*/
+   /*}*/
+
+   /*.al{*/
+   /*    width: 30px;*/
+   /*    height: 30px;*/
+   /*}*/
+
+   /*.bt{*/
+   /*    width: 100px;*/
+   /*    height: 40px;*/
+   /*    border-radius: 10px;*/
+   /*    margin-right: 30px;*/
+   /*    color: white;*/
+   /*    border: 2px solid red;*/
+
+   /*}*/
+
+.page-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: mediumspringgreen;
+    color: white;
+    font-size: 18px;
+    margin: 0 30px;
+}
+.page-btn:hover{
+    background: #55e755;
+}
+
+.header--search input{
+    padding: 12px 30px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px 2px #f3f0f0;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    background: none;
+}
+.header--search button{
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 1px solid #faf7f7;
+    box-shadow: 0 0 10px 2px #f3f0f0;
+    background: #0f1010;
+    margin-left: 30px;
+    transition: .4s;
+    color: white;}
+.header--search button:hover{
+    border: 1px solid #181a18;
+    background: #f4f8f4;
+    color: #da1212;
+}
+
+
+.lll{
+    margin-bottom: 1000px;
+}
